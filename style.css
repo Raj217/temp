@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.gdsc_svg {
+  height: 15em;
+}
+
+.clock_svg {
+  height: 1.6em;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 0 7em;
+}
+
+.welcome_text h1 {
+  font-size: 4em;
+}
+
+.welcome_text h2 {
+  font-size: 1.4em;
+  color: #373f41;
+}
+
+.welcome_text .dates {
+  display: flex;
+  align-items: center;
+}
+
+.welcome_text .dates h2 {
+  padding-left: 10px;
+  color: #4f46e5;
+}
+
+.welcome_text p {
+  color: #737b7d;
+  font-size: 1.3em;
+  padding: 15px 0;
+}
+
+.welcome_text .explore_text {
+  padding: 10px 0;
+}
+
+.button-wrapper {
+  padding-top: 50px;
+}
+
+.button {
+  text-decoration: none;
+  font-size: 1.1em;
+  border: 2px solid #1b4996;
+  border-radius: 5px;
+  padding: 7px 10px;
+  color: #3c64b1;
+  margin-right: 15px;
+  transition: 200ms;
+}
+
+.button.filled {
+  background-color: #3c64b1;
+  color: white;
+}
+
+.button.filled:hover {
+  box-shadow: 5px 6px 20px #bfc8cc;
+}
+
+.button.empty:hover {
+  color: white;
+  background-color: #3c64b1;
+}
+
+.info {
+  height: 80vh;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+}
+
+.info .fork img {
+  height: 10em;
+  position: absolute;
+  align-self: start;
+}
+
+.info .bottom-right {
+  transform: rotate(180deg) translateY(-100px);
+}
+
+.info-head h1 {
+  color: #01a050;
+  font-size: 3em;
+  padding: 1.5em 0 1em 0;
+  text-align: center;
+}
+
+.cards-row {
+  display: flex;
+  flex-direction: row;
+  padding: 2em 0;
+  justify-content: center;
+}
+
+.info-card {
+  height: 150px;
+  width: 150px;
+  background-color: #fbfbfb;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 2em 5px;
+  margin-right: 7em;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px #cfd8db;
+}
+
+.info-card .info-text {
+  text-align: center;
+}
+.info-card img {
+  height: 50px;
+  flex-grow: 1;
+  padding: 1em 2em 2em 2em;
+}

@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"name": "codes",
+			"path": "..\\..\\..\\..\\codes"
+		},
+		{
+			"name": "images",
+			"path": "."
+		},
+		{
+			"name": "Git intro",
+			"path": "..\\..\\Desktop\\Git intro"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"random": "c"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "codes"
+	},
+	"extensions": {
+		"recommendations": [
+			"abusaidm.html-snippets"
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": []
+	}
+}
